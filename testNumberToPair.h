@@ -1,7 +1,7 @@
 #ifndef TESTNTP_H
 #define TESTNTP_H
 
-#include "main.h"
+#include "ColorCode.h"
 
 extern void testNumberToPair(int pairNumber,
     enum MajorColor expectedMajor,
