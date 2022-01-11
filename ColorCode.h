@@ -9,8 +9,8 @@ typedef struct {
     enum MinorColor minorColor;
 } ColorPair;
 
-extern void ColorPairToString(const ColorPair* colorPair, char* buffer);
-extern ColorPair GetColorFromPairNumber(int pairNumber);
-extern int GetPairNumberFromColor(const ColorPair* colorPair);
+extern const char* MajorColorNames[];
+extern const char* MinorColorNames[];
+extern int numberOfMinorColors;
 
 #endif
