@@ -1,4 +1,8 @@
+#include <stdio.h>
+#include <assert.h>
+#include "main.h"
 #include "testPairToNumber.h"
+
 
 void testPairToNumber(
     enum MajorColor major,
