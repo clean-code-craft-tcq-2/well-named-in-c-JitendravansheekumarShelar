@@ -2,6 +2,7 @@
 #include <assert.h>
 #include "ColorCode.h"
 #include "testPairToNumber.h"
+#include "GetPairNumberFromColor.h"
 
 
 void testPairToNumber(
