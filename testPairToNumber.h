@@ -1,5 +1,11 @@
-// This header file contains the declarations/prototypes defined in .c file
-void testPairToNumber(
+#ifndef TESTPTN_H
+#define TESTPTN_H
+
+#include "main.h"
+
+extern void testPairToNumber(
     enum MajorColor major,
     enum MinorColor minor,
     int expectedPairNumber);
+    
+#endif
