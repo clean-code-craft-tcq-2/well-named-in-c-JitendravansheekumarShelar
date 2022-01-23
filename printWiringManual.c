@@ -2,17 +2,15 @@
 #include "printWiringManual.h"
 
 /*Print WiringManual*/
-void printWiringManual(void){
-    int PairNumber = 1;
+int printWiringManual(void){
+    int PairNumber = 1
     ColorPair color;
     
-    for(PairNumber = 1; PairNumber <= MAXPAIR; PairNumber++)
+    for(; PairNumber <= MAX_NUMBER_OF_PAIR; PairNumber++)
     {
         color = GetColorFromPairNumber(PairNumber);
-         printf("\n*********************");
-         printf("\n Major Color : %s  ", MajorColorNames[color.majorColor]);
-         printf("\n Minor Color : %s  ", MinorColorNames[color.minorColor]);
-         printf("\n Color Code  : %d  ", PairNumber);
-         printf("\n*********************");
+        printf("%d | %s | %s\n", PairNumber, MajorColorNames[color.majorColor], MinorColorNames[color.minorColor]);
+         
     }
+    return (PairNumber-1);
 }
