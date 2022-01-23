@@ -3,7 +3,7 @@
 #include "ColorCode.h"
 #include "testNumberToPair.h"
 #include "testPairToNumber.h"
-#inlcude "printWiringManual.h"
+#inlcude "testPrintWiringManual.h"
 
 const char* MajorColorNames[] = {
     "White", "Red", "Black", "Yellow", "Violet"
@@ -32,7 +32,7 @@ int main() {
     scanf("%d",&printFlag)
     
     if(printFlag == 0)
-        (void)printWiringManual()
+        (void)testPrintWiringManual()
     else
         //Do Nothing
            
