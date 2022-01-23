@@ -1,8 +1,8 @@
 #include "ColorCode.h"
-#include "printWiringManual.h"
+#include "testPrintWiringManual.h"
 
-/*Print WiringManual*/
-int printWiringManual(void){
+/*Print Wiring Manual*/
+void testPrintWiringManual(void){
     int PairNumber = 1
     ColorPair color;
     
@@ -12,5 +12,5 @@ int printWiringManual(void){
         printf("%d | %s | %s\n", PairNumber, MajorColorNames[color.majorColor], MinorColorNames[color.minorColor]);
          
     }
-    return (PairNumber-1);
+    assert ((PairNumber-1) == MAX_NUMBER_OF_PAIR);
 }
