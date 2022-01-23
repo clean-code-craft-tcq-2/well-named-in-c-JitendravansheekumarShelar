@@ -28,10 +28,13 @@ int main() {
     
     printf("\n*********************\n");
     printf("Do you want to print Wiring Manual on Console :\n0 : Yes\n1:No\n");
-    sccanf("%d",&printFlag)
+    printf("\n*********************\n");
+    scanf("%d",&printFlag)
     
-    if(printFlag ! = 1)
-        printWiringManual()
+    if(printFlag == 0)
+        (void)printWiringManual()
+    else
+        //Do Nothing
            
     return 0;
 }
