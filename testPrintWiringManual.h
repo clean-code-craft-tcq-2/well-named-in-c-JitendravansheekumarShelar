@@ -3,6 +3,6 @@
 
 #include "ColorCode.h"
 
-extern void printWiringManual(void);
+extern void testPrintWiringManual(void);
     
 #endif
