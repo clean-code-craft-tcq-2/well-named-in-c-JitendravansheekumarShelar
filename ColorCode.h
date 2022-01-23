@@ -13,4 +13,6 @@ extern const char* MajorColorNames[];
 extern const char* MinorColorNames[];
 extern int numberOfMinorColors;
 
+#define MAX_NUMBER_OF_PAIR 25
+
 #endif
