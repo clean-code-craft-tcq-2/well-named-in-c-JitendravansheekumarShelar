@@ -1,5 +1,8 @@
+#include "ColorCode.h"
+#include "printWiringManual.h"
+
 /*Print WiringManual*/
-void PrintWiringManual(void){
+void printWiringManual(void){
     int PairNumber = 1;
     ColorPair color;
     
