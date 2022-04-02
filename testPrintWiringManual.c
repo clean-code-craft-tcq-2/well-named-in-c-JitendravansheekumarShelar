@@ -1,5 +1,4 @@
 #include <assert.h>
-#include "ColorCode.h"
 #include "GetColorFromPairNumber.h"
 #include "testPrintWiringManual.h"
 
