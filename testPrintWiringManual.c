@@ -1,6 +1,7 @@
 #include "ColorCode.h"
 #include "GetColorFromPairNumber.h"
 #include "testPrintWiringManual.h"
+#include <assert.h>
 
 /*Print Wiring Manual*/
 void testPrintWiringManual(void){
