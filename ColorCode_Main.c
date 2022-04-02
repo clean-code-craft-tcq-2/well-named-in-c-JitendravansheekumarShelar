@@ -32,9 +32,13 @@ int main() {
     scanf("%d",&printManualFlag);
     
     if(printManualFlag == 0)
-        (void)testPrintWiringManual();
+    {
+        testPrintWiringManual();
+    }
     else
+    {
         //Do Nothing
+    }
            
     return 0;
 }
