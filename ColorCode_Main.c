@@ -18,7 +18,7 @@ int numberOfMinorColors =
 
 
 int main() {
-    int printFlag = 0;
+    int printManualFlag = 0;
     
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
@@ -29,9 +29,9 @@ int main() {
     printf("\n*********************\n");
     printf("Do you want to print Wiring Manual on Console :\n0 : Yes\n1:No\n");
     printf("\n*********************\n");
-    scanf("%d",&printFlag);
+    scanf("%d",&printManualFlag);
     
-    if(printFlag == 0)
+    if(printManualFlag == 0)
         (void)testPrintWiringManual();
     else
         //Do Nothing
