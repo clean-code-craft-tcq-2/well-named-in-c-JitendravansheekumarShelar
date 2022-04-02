@@ -1,3 +1,4 @@
+#include <assert.h>
 #include "ColorCode.h"
 #include "GetColorFromPairNumber.h"
 #include "testPrintWiringManual.h"
@@ -13,4 +14,5 @@ void testPrintWiringManual(void){
         printf("%d | %s | %s\n", PairNumber, color.majorColor, color.minorColor);
          
     }
+    assert((PairNumber-1) == MAX_NUMBER_OF_PAIR);
 }
