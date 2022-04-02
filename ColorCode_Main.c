@@ -3,7 +3,7 @@
 #include "ColorCode.h"
 #include "testNumberToPair.h"
 #include "testPairToNumber.h"
-#inlcude "testPrintWiringManual.h"
+#include "testPrintWiringManual.h"
 
 const char* MajorColorNames[] = {
     "White", "Red", "Black", "Yellow", "Violet"
