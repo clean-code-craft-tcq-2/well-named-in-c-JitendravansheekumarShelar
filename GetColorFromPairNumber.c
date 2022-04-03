@@ -6,8 +6,8 @@ ColorPair GetColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
     int zeroBasedPairNumber = pairNumber - 1;
     colorPair.majorColor = 
-        (enum MajorColor)(zeroBasedPairNumber / numberOfMinorColors);
+        (enum MajorColor)(zeroBasedPairNumber / 5);
     colorPair.minorColor =
-        (enum MinorColor)(zeroBasedPairNumber % numberOfMinorColors);
+        (enum MinorColor)(zeroBasedPairNumber % 5);
     return colorPair;
 }
