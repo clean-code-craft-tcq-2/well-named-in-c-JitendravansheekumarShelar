@@ -1,17 +1,13 @@
 #include "ColorCode.h"
 #include "GetColorFromPairNumber.h"
 
-const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
-const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
-int NumberOfMajorColors_i = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
-
 
 ColorPair GetColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
     int zeroBasedPairNumber = pairNumber - 1;
     colorPair.majorColor = 
-        (enum MajorColor)(zeroBasedPairNumber / NumberOfMajorColors_i );
+        (enum MajorColor)(zeroBasedPairNumber / numberOfMinorColors );
     colorPair.minorColor =
-        (enum MinorColor)(zeroBasedPairNumber % NumberOfMajorColors_i );
+        (enum MinorColor)(zeroBasedPairNumber % numberOfMinorColors );
     return colorPair;
 }
