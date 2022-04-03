@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
-#include "ColorCoding.h"
+#include "ColorCode.h"
+
 void DisplayColorCodeManual()
 {
     int Count =1;
