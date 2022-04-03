@@ -14,7 +14,7 @@ void testPrintWiringManual(void){
     {
         color = GetColorFromPairNumber(PairNumber);
         ColorPairToString(&color, colorPairNames);
-        printf("%d | %s | %s\n", PairNumber, color.majorColor, color.minorColor);
+        printf("%d - %s \n", PairNumber, colorPairNames);
          
     }
 }
