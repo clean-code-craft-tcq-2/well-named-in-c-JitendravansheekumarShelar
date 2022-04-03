@@ -2,7 +2,7 @@
 #include <assert.h>
 #include "ColorCode.h"
 
-void DisplayColorCodeManual()
+void printColorCodeManual()
 {
     int Count =1;
     printf("Number\t\t\tMajorColor\t\t\tMinorColor");
