@@ -30,14 +30,14 @@ int main() {
     printf("\n*********************\n");
     scanf("%d",&printManualFlag);
     
-    if(printManualFlag == 0)
+    /*if(printManualFlag == 0)
     {
         testPrintWiringManual();
     }
     else
     {
         //Do Nothing
-    }
+    }*/
            
     return 0;
 }
